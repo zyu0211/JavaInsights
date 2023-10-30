@@ -35,9 +35,9 @@
 
 ***Java 企业开发基础***
 
-1. [MySQL数据库](#MySQL 数据库) - 学习数据库基础知识和SQL查询，掌握MySQL数据库，学习如何与数据库交互，使用JDBC进行数据操作。
-2. [JavaWeb入门](#JavaWeb 入门) - 学习JavaWeb开发基础，包括Servlet、Filter、Listener等。
-3. [前端基础](https://chat.openai.com/c/cd6b41ab-42fa-4827-b538-725fb84a29aa#前端基础) - 学习HTML、CSS、JavaScript等前端技术，与JavaWeb开发结合。
+1. [MySQL数据库](#MySQL数据库) - 学习数据库基础知识和SQL查询，掌握MySQL数据库，学习如何与数据库交互，使用JDBC进行数据操作。
+2. [JavaWeb入门](#JavaWeb入门) - 学习JavaWeb开发基础，包括Servlet、Filter、Listener等。
+3. [前端基础](#前端基础) - 学习HTML、CSS、JavaScript等前端技术，与JavaWeb开发结合。
 4. [工具与框架](#工具与框架) - 探索Java开发中常用的工具和框架，如 Spring、Spring Boot、MyBatis、Maven、JUnit等。
 
 ***Java 企业开发进阶***
@@ -46,7 +46,7 @@
 2. [缓存](#缓存) - 了解缓存的原理和常用缓存技术，如Redis。
 3. [消息队列](#消息队列) - 学习消息队列的概念和使用，如RabbitMQ、Kafka。
 4. [Nginx](#Nginx) - 掌握Nginx的基本配置和反向代理等应用。
-5. [Netty网络编程](#Netty 网络编程) - 学习Netty框架，实现高性能的网络应用。
+5. [Netty网络编程](#Netty网络编程) - 学习Netty框架，实现高性能的网络应用。
 6. [微服务](#微服务) - 了解微服务架构的概念和实践，如Dubbo、Spring Cloud、Spring Cloud Alibaba。
 7. [容器](#容器) - 探索容器技术，如Docker，实现快速部署和扩缩容。
 8. [CI/CD](#CI/CD) - 学习持续集成和持续交付的流程和工具。
