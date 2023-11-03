@@ -1,6 +1,6 @@
 # Java企业级开发进阶
 
-## [设计模式](design patterns/index.md)
+## [设计模式](designpatterns/index.md)
 
 ## [缓存](cache/index.md)
 

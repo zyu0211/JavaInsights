@@ -1,6 +1,6 @@
 # Java进阶
 
-## [高级特性](advanced features/index.md)
+## [高级特性](advancedfeatures/index.md)
 
 ## [异常处理](exception/index.md)
 
