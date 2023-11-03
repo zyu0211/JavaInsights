@@ -8,53 +8,52 @@
 
 ## :books: 子模块
 
-***Java 入门***
+***[Java入门](01-Basic Java/index.md)***
 
-1. [基础知识](基础知识/index.md) - 从零开始学习Java语言基础，了解数据类型、变量、运算符、基础语法、数组等。
+1. [基础知识](01-Basic Java/basic.md) - 从零开始学习Java语言基础，了解数据类型、变量、运算符、基础语法、数组等。
 
-2. [面向对象编程](#面向对象编程) - 深入探讨Java面向对象的概念，掌握类、继承、封装、多态。
+2. [面向对象编程](01-Basic Java/oop.md) - 深入探讨Java面向对象的概念，掌握类、继承、封装、多态。
 
-3. [核心库](#核心库) - 熟悉Java标准库，包括常用类、集合框架、I/O、多线程等。
+3. [核心库](01-Basic Java/coreLib.md) - 熟悉Java标准库，包括常用类、集合框架、I/O、多线程等。
 
-***Java 高级***
+***[Java高级](02-Advanced Java/index.md)***
 
-1. [高级特性](#高级特性) - 探索Java的高级特性，如Lambda表达式、流式编程、泛型、反射。
+1. [高级特性](02-Advanced Java/advanced features/index.md) - 探索Java的高级特性，如Lambda表达式、流式编程、泛型、反射。
 
-2. [异常处理](#异常处理) - 学习如何优雅地处理Java异常，确保程序稳定性。
+2. [异常处理](02-Advanced Java/exception/index.md) - 学习如何优雅地处理Java异常，确保程序稳定性。
 
-3. [并发编程](#并发编程) - 深入了解Java并发编程，包括线程、锁、并发容器等。
+3. [并发编程](02-Advanced Java/concurrent/index.md) - 深入了解Java并发编程，包括线程、锁、并发容器等。
 
-4. [JVM](#JVM) - 探索Java虚拟机（JVM）的工作原理和调优方法。
+4. [JVM](02-Advanced Java/jvm/index.md) - 探索Java虚拟机（JVM）的工作原理和调优方法。
 
-***计算机基础***
+***[计算机基础](03-Computer Basics/index.md)***
 
-1. [计算机网络](#计算机网络) - 学习计算机网络基本原理、TCP/IP协议栈、网络通信等
-2. [操作系统](#操作系统) - 深入理解操作系统的基本概念和运行机制。
-3. [数据结构与算法](#数据结构与算法) - 学习常用数据结构和算法，并在Java中实现它们。
-4. 
+1. [计算机网络](03-Computer Basics/computer network/index.md) - 学习计算机网络基本原理、TCP/IP协议栈、网络通信等
+2. [操作系统](03-Computer Basics/operating system/index.md) - 深入理解操作系统的基本概念和运行机制。
+3. [数据结构与算法](03-Computer Basics/algorithms/index.md) - 学习常用数据结构和算法，并在Java中实现它们。
 
-***Java 企业开发基础***
+***[Java企业开发基础](04-Enterprise-dev Basics/index.md)***
 
-1. [MySQL数据库](#MySQL数据库) - 学习数据库基础知识和SQL查询，掌握MySQL数据库，学习如何与数据库交互，使用JDBC进行数据操作。
-2. [JavaWeb入门](#JavaWeb入门) - 学习JavaWeb开发基础，包括Servlet、Filter、Listener等。
-3. [前端基础](#前端基础) - 学习HTML、CSS、JavaScript等前端技术，与JavaWeb开发结合。
-4. [工具与框架](#工具与框架) - 探索Java开发中常用的工具和框架，如 Spring、Spring Boot、MyBatis、Maven、JUnit等。
+1. [MySQL数据库](04-Enterprise-dev Basics/mysql/index.md) - 学习数据库基础知识和SQL查询，掌握MySQL数据库，学习如何与数据库交互，使用JDBC进行数据操作。
+2. [JavaWeb入门](04-Enterprise-dev Basics/javaweb/index.md) - 学习JavaWeb开发基础，包括Servlet、Filter、Listener等。
+3. [前端基础](04-Enterprise-dev Basics/front-end/index.md) - 学习HTML、CSS、JavaScript等前端技术，与JavaWeb开发结合。
+4. [工具与框架](04-Enterprise-dev Basics/frameworks/index.md) - 探索Java开发中常用的工具和框架，如 Spring、Spring Boot、MyBatis、Maven、JUnit等。
 
-***Java 企业开发进阶***
+***[Java企业开发进阶](05-Enterprise-dev Advance/index.md)***
 
-1. [设计模式](#设计模式) - 掌握常用的设计模式，并学会在Java中应用它们。
-2. [缓存](#缓存) - 了解缓存的原理和常用缓存技术，如Redis。
-3. [消息队列](#消息队列) - 学习消息队列的概念和使用，如RabbitMQ、Kafka。
-4. [Nginx](#Nginx) - 掌握Nginx的基本配置和反向代理等应用。
-5. [Netty网络编程](#Netty网络编程) - 学习Netty框架，实现高性能的网络应用。
-6. [微服务](#微服务) - 了解微服务架构的概念和实践，如Dubbo、Spring Cloud、Spring Cloud Alibaba。
-7. [容器](#容器) - 探索容器技术，如Docker，实现快速部署和扩缩容。
-8. [CI/CD](#CI/CD) - 学习持续集成和持续交付的流程和工具。
+1. [设计模式](05-Enterprise-dev Advance/design patterns/index.md) - 掌握常用的设计模式，并学会在Java中应用它们。
+2. [缓存](05-Enterprise-dev Advance/cache/index.md) - 了解缓存的原理和常用缓存技术，如Redis。
+3. [消息队列](05-Enterprise-dev Advance/mq/index.md) - 学习消息队列的概念和使用，如RabbitMQ、Kafka。
+4. [Nginx](05-Enterprise-dev Advance/nginx/index.md) - 掌握Nginx的基本配置和反向代理等应用。
+5. [Netty网络编程](05-Enterprise-dev Advance/netty/index.md) - 学习Netty框架，实现高性能的网络应用。
+6. [微服务](05-Enterprise-dev Advance/microservices/index.md) - 了解微服务架构的概念和实践，如Dubbo、Spring Cloud、Spring Cloud Alibaba。
+7. [容器](05-Enterprise-dev Advance/container/index.md) - 探索容器技术，如Docker，实现快速部署和扩缩容。
+8. [CI/CD](05-Enterprise-dev Advance/ci-cd/index.md) - 学习持续集成和持续交付的流程和工具。
 
-***其他加成***
+***[其他加成](06-Other/index.md)***
 
-1. [Git](#Git) - 学习版本控制工具Git的基本用法。
-2. [Linux](#Linux) - 探索Linux操作系统的基本命令和使用。
+1. [Git](06-Other/git/index.md) - 学习版本控制工具Git的基本用法。
+2. [Linux](06-Other/linux/index.md) - 探索Linux操作系统的基本命令和使用。
 
 ******
 
