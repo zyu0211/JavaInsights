@@ -8,7 +8,7 @@
 
 ## :books: 子模块
 
-***[Java入门](01-Basic Java/index.md)***
+***[Java入门](01-Basic\ Java/index.md)***
 
 1. [基础知识](01-Basic Java/basic.md) - 从零开始学习Java语言基础，了解数据类型、变量、运算符、基础语法、数组等。
 
