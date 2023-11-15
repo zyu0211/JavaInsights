@@ -11,10 +11,8 @@
 ***[Java入门](01-BasicJava/index.md)***
 
 1. [基础知识](01-BasicJava/basic.md) - 从零开始学习Java语言基础，了解数据类型、变量、运算符、基础语法、数组等。
-
 2. [面向对象编程](01-BasicJava/oop.md) - 深入探讨Java面向对象的概念，掌握类、继承、封装、多态。
-
-3. [核心库](01-BasicJava/coreLib.md) - 熟悉Java标准库，包括常用类、集合框架、I/O、多线程等。
+3. [核心库](01-BasicJava/coreLib/index.md) - 熟悉Java标准库，包括常用类、集合框架、I/O、多线程等。
 
 ***[Java高级](02-AdvancedJava/index.md)***
 
