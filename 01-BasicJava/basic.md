@@ -119,6 +119,103 @@ Java是一种强类型语言，这就意味着必须为每一个变量声明一�
 - 强制转换符：`()`，但可能造成精度降低或溢出，格外要注意。
 - boolean 类型不可以转换为其它的数据类型。
 
+补充：Java、Golang、Python的数据类型对比
+
+<table>
+    <tr>
+        <th colspan=2></th>
+        <th>Java</th>
+        <th>Golang</th>
+        <th>Python</th>
+    </tr>
+    <tr>
+        <th rowspan=7>基本类型</th>
+        <th rowspan=4>整型</th>
+        <th>byte</th>
+        <th>byte、int8 (uint8)</th>
+        <th rowspan=3>int</th>
+    </tr>
+    <tr>
+        <th>short</th>
+        <th>int16 (uint16)</th>
+    </tr>
+    <tr>
+        <th>int</th>
+        <th>rune、int (uint)、int32 (uint32)</th>
+    </tr>
+    <tr>
+        <th>long</th>
+        <th>int64 (uint64)</th>
+        <th>long</th>
+    </tr>
+    <tr>
+        <th>浮点型</th>
+        <th>float、double</th>
+        <th>float32、float64、complex64、complex128</th>
+        <th>float、complex</th>
+    </tr>
+    <tr>
+        <th>布尔型</th>
+        <th>boolean</th>
+        <th>bool</th>
+        <th>bool</th>
+    </tr>
+    <tr>
+        <th>字符型</th>
+        <th>char</th>
+        <th>~</th>
+        <th>~</th>
+    </tr>
+    <tr>
+        <th rowspan=8>引用类型</th>
+        <th>字符串</th>
+        <th>String</th>
+        <th>string</th>
+        <th>str</th>
+    </tr>
+    <tr>
+        <th>数组类型</th>
+        <th>Array</th>
+        <th>array</th>
+        <th>~</th>
+    </tr>
+    <tr>
+        <th>指针</th>
+        <th>~</th>
+        <th>uintptr</th>
+        <th>~</th>
+    </tr>
+    <tr>
+        <th rowspan=2>容器类型</th>
+        <th>Colection (List、Set)</th>
+        <th>slice</th>
+        <th>list、tuple、set</th>
+    </tr>
+    <tr>
+        <th>Map</th>
+        <th>map</th>
+        <th>dict</th>
+    </tr>
+    <tr>
+        <th>函数</th>
+        <th>~</th>
+        <th>function</th>
+        <th>function</th>
+    </tr>
+    <tr>
+        <th>接口</th>
+        <th>interface</th>
+        <th>interface</th>
+        <th>~</th>
+    </tr>
+    <tr>
+        <th>其他</th>
+        <th>Class</th>
+        <th>struct、channel</th>
+        <th>class</th>
+    </tr>
+</table>
+
 ## 2. 变量与常量
 
 ### 2.1. 变量
@@ -187,6 +284,15 @@ public class Constants2 {
 ```
 
 >注意：const是Java保留的关键字，但目前并没有使用。在Java中，必须使用final定义常量。
+
+补充：Java、Golang、Python关键字
+
+|Java|Golang| Python|
+|---|---|---|
+| break, continue, else, for, if, import, return  | &#10004;| &#10004;|
+| case, const, default, goto, interface, package, switch| &#10004;| &#10008;|
+| assert, class, finally, try, while | &#10008; | &#10004;|
+| abstract, boolean, byte, catch, char, do, double, enum, extends, final, float, implements, instanceof, int, long,native, new, private, protected, public, short, static, strictfp, super, synchronized、this、throw、throws、transient、void、volatile | chan, defer, fallthrough, func, go, map, range, select, struct, type, var | and, as, async, await, def, del, elif, except, False, from, global, in, is, Lambda, None, nonlocal, not, or, pass, raise, True, with, yield |
 
 ## 3. 运算符
 
@@ -280,6 +386,17 @@ var result = condition ? expresion1 : expression2;
 
 - 符号：`=`
 - 扩展赋值运算符：`+=, -=, *=, /=, %=, <<=, >>=, ...`
+
+补充：Java、Golang、Python运算符
+
+| | Java | Golang | Python |
+|---|---|---|---|
+| 算术运算符 | +, -, *, /, %, ++, -- | +, -, *, /, %, ++, -- | +, -, *, /, %, **, // |
+| 关系运算符 | ==, !=, >, <, >=, <= | ==, !=, >, <, >=, <= | ==, !=, >, <, >=, <= |
+| 位运算符 | &, \|, ^, ~, <<, >>, >>> | &, \|, ^, &^, <<, >> | &, \|, ^, ~, <<, >> |
+| 逻辑运算符 | &&, \|\|, ! | &&, \|\|, ! | and, or, not |
+| 赋值运算符 | =, +=, -=, *=, /=, %=, <<=, >>=, &=, \|=,^= | =, :=, +=, -=, *=, /=, %=, <<=, >>=, &=, \|=, ^=, &^= | =, +=, -=, *=, /=, %=, **=, //= |
+| 其他运算符 | ?:, instanceof | & (取地址), * (解引用), <- | in, not in, is, is not |
 
 ## 4. 字符串
 
